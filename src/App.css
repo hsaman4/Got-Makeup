@@ -1,22 +1,108 @@
 .App {
   text-align: center;
 }
+.top {
+  height: 100vh;
+}
+.banner {
 
-.App-logo {
-  height: 40vmin;
+  border: 1px solid purple;
+  width: 100%;
+  height: 70vh;
+  background-image: url('./pictures/makeupcrop.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+  font-size: 100px;
+  font-family: 'Notable', sans-serif;
+  color: #F5D6DD;
+  opacity: 0.9;
+
+}
+.arrow {
+  width: 200px;
+  margin: 15em;
+  
+}
+
+.details{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
-
-.App-link {
-  color: #09d3ac;
+.details1 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+  height: 25%;
+  padding-top: 10px;
+  background-color: #F5D6DD;
+  
+}
+.details ul {
+  padding-inline-start: 5px;
+}
+.details li {
+  padding-top: 30px
+}
+.truckicon {
+  width: 100px;
+  height: auto;
+  
+}
+.details2{
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+  height: 22vh; 
+  /* padding-top: 10px; */
+  background-color: #F5D6DD;
+}
+.details2 li {
+  padding-top: 40px;
+}
+.tag {
+  width: 100px;
+  height: auto
+}
+.details3 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+  height: 25%;
+  padding-top: 10px;
+  background-color: #F5D6DD;
+}
+@media all and (max-width: 500px)  {
+  .App {
+    width: 100vh;
+  }
+  .banner p{
+    display: none;
+  }
+  .arrow {
+    width: 100px;
+    margin: 10em;
+    
+  }
+  .details{
+    display: none;
+  }
 }

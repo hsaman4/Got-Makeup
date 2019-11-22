@@ -1,0 +1,21 @@
+.theeyesBox {
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    background-color: #659188; 
+    margin-bottom: 30px;
+}
+ .eyesDiv {
+     margin: auto
+ }
+
+ .eyesUrl {
+    width: 200px;
+    height: auto;
+ }
+ .eyesTitle h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #99C7BD;
+    padding: 10px
+ }

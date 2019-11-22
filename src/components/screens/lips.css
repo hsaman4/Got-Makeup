@@ -1,0 +1,21 @@
+.thelipsBox {
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    background-color: #f2cfd5; 
+    margin-bottom: 30px;
+}
+.lipsDiv {
+    margin:auto
+}
+
+.lipsUrl {
+    width: 200px;
+    height: auto;
+}
+.lipsBanner h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #FFE3EE;
+    padding: 10px
+}

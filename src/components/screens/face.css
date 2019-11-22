@@ -1,0 +1,30 @@
+
+.thefaceBox {
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    background-color: #abaeee; 
+    margin-bottom: 30px;
+    
+}
+.faceDiv {
+    margin: auto;
+}
+
+.faceUrl {
+    width: 200px;
+    height: auto;
+   
+}
+.test h1{
+    display: flex;
+    justify-content: center;
+    background-color: #EEEDFF;
+    padding: 10px
+    
+}
+@media all and (max-width: 500px) {
+    .test {
+       
+    }
+}

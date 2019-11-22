@@ -1,0 +1,130 @@
+
+.navs {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+.faceContainer {
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+    width: 25%;
+    height: 45vh;
+    background-image: url("../pictures/faceicon.png");
+    background-size: cover;
+}
+.faceContainer li {
+    /* margin-top: 18em; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+}
+
+.lipsContainer{
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+    width: 25%;
+    height: 45vh;
+    background-image: url("../pictures/lipsicon.png");
+    background-size: cover;
+    
+}
+.lipsContainer li {
+    /* margin-top: 18em; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+}
+.eyesContainer {
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+    width: 25%;
+    height: 45vh;
+    background-image: url("../pictures/eyesicon.png");
+    background-size: cover;
+}
+.eyesContainer li {
+    /* margin-top: 18em; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+}
+
+.wishlistContainer {
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+    width: 25%;
+    height: 45vh;
+    background-image: url("../pictures/anotherwishlist.png");
+    background-size: cover;
+    /* background-color: #FEDBF5; */
+}
+.wishlistContainer li {
+    /* margin-top: 18em; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    
+}
+
+.wishlist{
+    border: 2px solid pink;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 90%; 
+    text-align: center;
+    width: 60%;
+    background-color: black;
+    color: white; 
+}
+@media all and (max-width: 500px) {
+    /* .navlinks {
+        display: flex;
+        flex-direction: column;
+    } */
+    
+    .faceContainer {
+      background-image: none;
+    }
+    .faceContainer li {
+        margin-top: -7em;
+    }
+    .lipsContainer {
+        background-image: none;
+    }
+    .lipsContainer li {
+        margin-top: -7em;
+    }
+    .eyesContainer{
+        background-image: none;
+    }
+    .eyesContainer li {
+        margin-top: -7em;
+    }
+    .wishlistContainer {
+        background-image: none;
+        background-color: none;
+    }
+    .wishlistContainer li {
+        margin-top: -7em;
+    } 
+    .navs {
+        margin: 0;
+    }
+    .test {
+        margin-top: -20em ;
+    }
+    .form {
+        margin-top: -20em;
+    }
+    .lipsBanner {
+        margin-top: -20em;
+    }
+    .eyesTitle {
+        margin-top: -20em;
+    }
+}
