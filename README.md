@@ -1,6 +1,7 @@
 # GOT-MAKEUP
 ## DEMO:
-![](https://imgur.com/1GOvV05)
+
+[Demo](https://imgur.com/1GOvV05)
 
 ## What does the project do:
 You can browse recommended products, as well as, make  wishlist of products by adding the prodcut name and image URL.
