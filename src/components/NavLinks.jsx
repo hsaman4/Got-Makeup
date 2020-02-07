@@ -7,11 +7,6 @@ import WishList from './screens/WishList'
 import './navlinks.css'
 import { api } from '../services/ApiConfig'
 
-
-
-
-
-
 class NavLinks extends React.Component {
     constructor(props) {
         super(props)
@@ -34,7 +29,7 @@ class NavLinks extends React.Component {
     }
     render() {
         return (
-            <div className="navlinks">
+            <div className="navlinks" id="whatsnew">
                 <nav className="navs">
                     <div className="faceContainer">
                         <NavLink exact activeClassName="active" to="/">

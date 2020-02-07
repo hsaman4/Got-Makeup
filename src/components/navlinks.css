@@ -1,73 +1,96 @@
 
 .navs {
     display: flex;
-    justify-content: flex-start;
     margin: auto;
+    /* border: 1px dashed black; */
+    padding: 1%;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 .faceContainer {
     text-align: center;
     color: black;
-    margin-right: 30px;
+    margin-right: 2%;
     width: 25%;
     height: 45vh;
     background-image: url("../pictures/faceicon.png");
-    background-size: cover;
+    background-size: 100%;
+    border-radius: 10px;
+
+ 
 }
 .faceContainer li {
-    /* margin-top: 18em; */
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    padding: 2%;
+    text-align: center;
+    text-decoration: underline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 .lipsContainer{
     text-align: center;
     color: black;
-    margin-right: 30px;
+    margin-right: 2%;
     width: 25%;
     height: 45vh;
     background-image: url("../pictures/lipsicon.png");
-    background-size: cover;
+    background-size: 100%;
+    border-radius: 10px;
     
 }
 .lipsContainer li {
-    /* margin-top: 18em; */
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    padding: 2%;
+    text-decoration: underline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .eyesContainer {
     text-align: center;
     color: black;
-    margin-right: 30px;
+    margin-right: 2%;
     width: 25%;
     height: 45vh;
     background-image: url("../pictures/eyesicon.png");
     background-size: cover;
+    border-radius: 10px;
 }
 .eyesContainer li {
-    /* margin-top: 18em; */
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 8px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    padding: 2%;
+    text-decoration: underline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .wishlistContainer {
     text-align: center;
     color: black;
-    margin-right: 30px;
     width: 25%;
     height: 45vh;
-    background-image: url("../pictures/anotherwishlist.png");
+    background-image: url("../pictures/wishlist.png");
     background-size: cover;
-    /* background-color: #FEDBF5; */
+    border-radius: 10px;
 }
 .wishlistContainer li {
-    /* margin-top: 18em; */
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 8px;
-    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    padding: 2%;
+    text-decoration: underline;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .wishlist{

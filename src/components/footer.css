@@ -1,15 +1,47 @@
 .footer {
     display: flex;
     border: 2px solid black;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    height: 40vh;
+    justify-content: space-between;
+    height: 49vh;
+    background-color: black;
 
 }
-.footer p{
-    font-size: 30px;
+.locator p{
+    font-size: 25px;
     font-weight: bold;
     margin: 0;
+    text-align: center;
+    color: white;
+}
+.mapStuff {
+    padding: 1%;
+}
+.map{
+    padding: 1%;
+    margin-top: 2%;
+}
+.otherlinks {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+.otherlinks p{
+    font-size: 13px;
+}
+.morelinks{
+    color: white;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
 }
 
+.morelinks p {
+    font-size: 13px;
+}

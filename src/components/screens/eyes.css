@@ -1,21 +1,43 @@
 .theeyesBox {
-    border: 1px solid black;
-    width: 40%;
-    margin: auto;
-    background-color: #659188; 
-    margin-bottom: 30px;
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
 }
  .eyesDiv {
-     margin: auto
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: #659188;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.10);
  }
 
  .eyesUrl {
-    width: 200px;
+    width: 50%;
     height: auto;
  }
  .eyesTitle h1 {
     display: flex;
     justify-content: center;
-    background-color: #99C7BD;
-    padding: 10px
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    margin-top: 1%;
+    letter-spacing: 3px;
+ }
+
+ .eyesTitle h3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin-top: 0;
+ }
+ .eyesName h3 {
+    width: 100%;
+    margin-top: 5%;
  }

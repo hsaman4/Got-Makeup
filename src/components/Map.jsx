@@ -8,7 +8,7 @@ class Map extends React.Component {
         this.state = {
             viewport: {
                 width: 400,
-                height: 300,
+                height: 250,
                 latitude: 40.7401,
                 longitude: -73.9903,
                 zoom: 16,
@@ -27,7 +27,6 @@ class Map extends React.Component {
                     longitude={-73.9903}
                     latitude={40.7401}
                 >
-
                     <img src={require("./mapicon.png")} width="25px" height="25px" alt="home local" />
 
                 </Marker>

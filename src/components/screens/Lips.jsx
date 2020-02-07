@@ -8,7 +8,9 @@ const Lips = (props) => {
                 return (
                     <div className="thelipsBox">
                         <div className="lipsDiv" >
+                            <div className="lipsName">
                             <h3>{makeup.lips}</h3>
+                            </div>
                             <div className="lipsImg">
                                 <img src={makeup.imgUrlLips} alt="" className="faceUrl" />
                                 <p>$20</p>

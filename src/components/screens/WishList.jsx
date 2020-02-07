@@ -48,7 +48,7 @@ class WishList extends React.Component {
         })
 
         return (
-            <div className="form">
+            <div className="form" id="wishlist">
                 <h1>Your Wishlist!</h1>
                 <h2>Add the product name and the URL!</h2>
                 <form className="add" onSubmit={this.handleSubmit} onChange={this.handleInput}>
@@ -57,7 +57,7 @@ class WishList extends React.Component {
                         <label for="makeupName">Product Name</label>
                         <input type="text" name="makeupImgUrl"  />
                         <label for="makeupImgUrl">Product URL</label>
-                        <input type="submit" name="Submit" />
+                        <input className="submit"type="submit" name="Submit" />
                     </div>
                 </form>
                 {theWishlist}

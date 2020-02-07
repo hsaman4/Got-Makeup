@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 .top {
-  height: 100vh;
+  height: 75vh;
 }
-.banner {
 
-  border: 1px solid purple;
+.banner {
+  /* border-top: 1px solid black; */
   width: 100%;
   height: 70vh;
   background-image: url('./pictures/makeupcrop.png');
@@ -14,81 +17,109 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner p {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 25%;
+  top: 28%;
   left: 50%;
   font-size: 100px;
-  font-family: 'Notable', sans-serif;
+  font-family: 'Lobster Two', cursive;
   color: #F5D6DD;
-  opacity: 0.9;
-
+  opacity: 0.95;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
 }
 .arrow {
-  width: 200px;
-  margin: 15em;
-  
+  width: 10%;
+  margin: 18em;
 }
 
 .details{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 1%;
+  text-align: center;
+  
 }
 .details1 {
   border: 2px solid black;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   font-weight: bold;
-  width: 25%;
-  height: 25%;
+  width: 30%;
   padding-top: 10px;
-  background-color: #F5D6DD;
-  
+  background-color: #FFFFD0;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
-.details ul {
-  padding-inline-start: 5px;
+
+.free {
+  display: flex;
+  align-items: center;
 }
-.details li {
-  padding-top: 30px
-}
+
 .truckicon {
-  width: 100px;
-  height: auto;
-  
+  width: 27%;
+  height: 80%;
+  padding: 1%;
+
 }
 .details2{
   border: 2px solid black;
+  border-radius: 10px;
   display: flex;
   justify-content: flex-start;
   font-size: 20px;
   font-weight: bold;
-  width: 25%;
+  width: 30%;
   height: 22vh; 
-  /* padding-top: 10px; */
-  background-color: #F5D6DD;
+  /* background-color: #F5D6DD; */
+  background-color: #FFFFD0;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
-.details2 li {
-  padding-top: 40px;
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 5%; 
 }
-.tag {
-  width: 100px;
-  height: auto
+.textbubble {
+  width: 40%;
+  height: 80%;
+  padding: 1%;
 }
 .details3 {
   border: 2px solid black;
+  border-radius: 10px;
   display: flex;
   justify-content: flex-start;
   font-size: 20px;
   font-weight: bold;
-  width: 25%;
-  height: 25%;
+  width: 30%;
   padding-top: 10px;
-  background-color: #F5D6DD;
+  /* background-color: #F5D6DD; */
+  background-color: #FFFFD0;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.tag {
+  width: 25%;
+  height: 50%;
+  padding: 1%;
+}
+.shipping {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  width: 100%;
+  justify-content: space-evenly;
 }
 @media all and (max-width: 500px)  {
   .App {

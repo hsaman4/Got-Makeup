@@ -1,29 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum&display=swap');
+
 .headerContainer {
-    border: 1px solid black
+    /* border: 1px solid black */
 }
 .header {
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    
 
 }
 .header h1 {
     font-size: 60px;
-    /* color:#f5d5dd */
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oranienbaum', serif;
+    margin: 1%;
+    font-weight: 100;
     
 }
 .account {
-    /* border: 1px solid blue; */
     display: flex;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 50;
+    align-items: center;
+    width: 14%;
 }
 .myAccount {
     margin-right: 20px;
 }
 .links {
-    /* border: 1px solid orange; */
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Open Sans Condensed', sans-serif;
       
 }
@@ -38,10 +43,21 @@ li {
     color: red;
 }
 .flag {
-    margin-top: 15px;
     height: 30px;
+    padding: 1%;
 }
-
+.whatsnew {
+    color: black;
+}
+.whatsnew:hover {
+    color: #F5D6DD;
+}
+.storelocatorlink {
+    color: black;   
+}
+.storelocatorlink:hover {
+    color: #F5D6DD;
+}
 @media all and (max-width: 500px) {
     .header {
        display: flex;

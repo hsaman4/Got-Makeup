@@ -8,7 +8,9 @@ const Eyes = (props) => {
                 return (
                     <div className="theeyesBox">
                         <div className="eyesDiv" >
+                            <div className="eyesName">
                             <h3>{makeup.eyes}</h3>
+                            </div>
                             <div className="eyesImg">
                                 <img src={makeup.imgUrlEyes} alt="" className="faceUrl" />
                                 <p>$40</p>
